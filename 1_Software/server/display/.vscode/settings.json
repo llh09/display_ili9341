@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "app_time.h": "c",
+        "bsp_spi.h": "c",
+        "bsp_uart.h": "c"
+    }
+}

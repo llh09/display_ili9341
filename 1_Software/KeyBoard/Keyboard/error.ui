@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Error</class>
+ <widget class="QWidget" name="Error">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>210</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>210</width>
+    <height>300</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>300</width>
+    <height>300</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QWidget" name="widget_7" native="true">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>50</y>
+     <width>210</width>
+     <height>120</height>
+    </rect>
+   </property>
+   <widget class="QWidget" name="widget" native="true">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>210</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <widget class="QLabel" name="comuError1">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>140</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>1. 通信丢失( MCU )</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="Lab_error1">
+     <property name="geometry">
+      <rect>
+       <x>150</x>
+       <y>5</y>
+       <width>16</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="widget_2" native="true">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>20</y>
+      <width>210</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <widget class="QLabel" name="comuError2">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>140</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>2. 通信丢失( VK  )</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="Lab_error2">
+     <property name="geometry">
+      <rect>
+       <x>150</x>
+       <y>5</y>
+       <width>16</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="widget_3" native="true">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>40</y>
+      <width>210</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <widget class="QLabel" name="comuError3">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>140</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>3. HardFault</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="Lab_error3">
+     <property name="geometry">
+      <rect>
+       <x>150</x>
+       <y>5</y>
+       <width>16</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="widget_4" native="true">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>60</y>
+      <width>210</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <widget class="QLabel" name="comuError4">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>140</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>4. Flash 错误</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="Lab_error4">
+     <property name="geometry">
+      <rect>
+       <x>150</x>
+       <y>5</y>
+       <width>16</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="widget_5" native="true">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>80</y>
+      <width>210</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <widget class="QLabel" name="comuError5">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>140</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>5. 通信错误</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="Lab_error5">
+     <property name="geometry">
+      <rect>
+       <x>150</x>
+       <y>5</y>
+       <width>16</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="widget_6" native="true">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>100</y>
+      <width>210</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <widget class="QLabel" name="comuError6">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>140</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>6. LCD 错误</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="Lab_error6">
+     <property name="geometry">
+      <rect>
+       <x>150</x>
+       <y>5</y>
+       <width>16</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QWidget" name="widget_8" native="true">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>210</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <widget class="QLabel" name="Lab_FaultLevel">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>160</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Fault level: 0</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Lab_FaultCode">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>20</y>
+      <width>160</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Fault code: 0</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
